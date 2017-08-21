@@ -37,6 +37,7 @@ class Farm
     unless option == "exit"
       self.options(option)
     end
+    puts "Exiting..."
   end
 
   def self.options(option)
